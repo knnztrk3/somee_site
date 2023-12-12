@@ -1,0 +1,41 @@
+#none-dec{
+    color: rgb(188, 90, 20);
+    text-decoration: none;
+}
+#none-dec:hover{
+    color: rgb(251, 120, 5);
+    text-decoration: none;transition: 0.5s;
+}
+
+#none-dec-second{
+    color: rgb(10, 87, 115);
+    text-decoration: none;
+}
+#none-dec-second:hover{
+    color: rgb(5, 153, 251);
+    text-decoration: none;transition: 0.5s;
+}
+
+#kitaplar img{
+height: 200px;
+}
+
+.box0 {
+    margin-bottom: 1em;
+    height: 3em;
+  }
+  .box1 {
+    margin-bottom: -1.5em;
+    height: 4em;
+  }
+  .box2 {
+    border: 1px dashed black;
+    border-width: 1px 0;
+    margin-bottom: 2em;
+  }
+  .box3 {
+    border: 1px dashed black;
+    border-width: 1px 0;
+  }
+
+  

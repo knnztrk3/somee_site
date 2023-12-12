@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Örnek Çalışmaları</title>
+</head>
+<body background="background.jpg" style="background-repeat:No-repeat;background-size:cover; font-family: Verdana;">
+	<!-- <a href="kitaplar.html"> 
+        <img src="home.png" width="30" height="30" alt="resim-bulunamadi">
+    </a> -->
+    <div align="center">
+        <a href="kitaplar.html"> <img src="logo-432x160-transparent.png" alt="" srcset="" width="10%" height="10%"></a>
+    </div> 
+	<form name="giris" action="kitaplar.html" method="get" style="margin-left: 40%;">
+		<fieldset style="width: 40%; align-items: center;">
+			<legend>GİRİŞ YAP</legend>
+		<table>
+			<tr>
+				<td><label>E-Posta Adresi: <span style="color: red;">*</span></label></label></td>
+				<td><input type="email" name="sifre" placeholder="E-Posta adresi yazınız." required></td>
+			</tr>
+			<tr>
+				<td><label>Şifre: <span style="color: red;">*</span></label></label></td>
+				<td><input type="password" name="sifre" placeholder="Şifrenizi giriniz." required></td>
+			</tr>
+			<tr>
+				<td><label>Şifre Tekrar: <span style="color: red;">*</span></label></label></td>
+				<td><input type="password" name="sifre" placeholder="Tekrar şifrenizi giriniz." required></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Giriş yap">
+				</td>
+			</tr>
+            <tr>
+
+                <td>Hesabın yok mu? Kayıt olmak için <a href="uyelik-formu.html">tıklayınız</a></td>
+            </tr>
+		</table>
+	</fieldset>
+	</form>
+	
+	
+</body>
+</html>
