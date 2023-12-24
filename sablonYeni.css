@@ -1,0 +1,219 @@
+body {
+	background-color: lightblue;
+}
+/* KUTULAR START */
+.kutu1 {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	float: left;
+	margin: 35px;
+}
+.kutu2 {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	float: left;
+	padding-top: 100px;
+}
+/* KUTULAR END */
+
+.harf{
+	width: 30px;
+	height: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	background-color: pink;
+	text-align: center;
+	border-color: gray;
+	border-width: 2px;
+	border-style: solid;
+}
+.govde {
+	width: 960px;
+	height: 1400px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	background-image:url('logo200x200Yeni.png');   
+    background-repeat:   no-repeat;
+	float: left;
+}
+
+.banner {
+	width: 745px;
+	height: 200px;
+	margin: 5px 5px 5px 0; /* üst, sağ, alt, sol */
+	background-color: #74cba7;
+	float: right;
+	border-radius: 8px;
+	-moz-border-radius: 8px; /* mozilla tarayıcılarında bu kodu geçerli kul */
+	-webkit-border-radius: 8px; /*  */
+	-o-border-radius: 8px; 
+	-ms-border-radius: 8px;
+}
+
+.menu {
+	width: 950px;
+	height: 50px;
+	margin: 0px 5px; /* 1. verilen değer alt üst 2. verilen değer sağ sol */
+	/* background-color: #74cba7; */
+	clear: both; /* önceki divlerin float özelliklerinden gelen sağa sola yaslamayı kaldırdı */ 
+	
+}
+
+.slider {
+	width: 650px;
+	height: 400px;
+	background-color: #74cba7;
+	margin: 5px;
+	float: left;
+}
+/* sag icerik start */
+.sag_icerik {
+	width: 295px;
+	height: 400px;
+	float: right;
+	margin: 5px 5px 5px 0px;
+	background-color: #74cba7;
+}
+.sag_icerik h5{
+	color: white;
+	background-color: #942727;
+	line-height: 44px;
+	height: 40px;
+	margin: 0px;
+	padding-left: 8px;
+	font-family:Verdana;
+	border-left: solid 10px rgb(251, 0, 0);
+}
+.sag_icerik img {
+	/* padding: 10px 0px 0px 10px; */
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+.flex-container {
+	display: flex;
+	padding: 15px 0px 0px 10px;
+  }
+
+.yazarAdSoyad {
+	width: 200px;
+	/* padding-top: 5px; */
+	margin-right: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.yazarHaberBaslik {
+	width: 200px;
+	font-family: sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+.adBaslikTutucu{
+	margin: 10px 0px 0px 10px;
+}
+
+
+/* sag icerik end */
+
+/* haber START */
+
+.haber{
+	width: 228px;
+	height: 280px;
+	margin: 5px 5px;
+	float:left;
+	border-radius: 7px;
+/* ilk değer sağ ikinci değer sol 3. deger dagılma özelligi */
+	box-shadow: 3px 3px 5px #dcdcdc;
+}
+
+.haber img {
+	width: 228px;
+	height: 230px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.haber p {
+	color: rgb(0, 157, 144);
+	margin: 5px;
+	font-family: Verdana;
+	text-align: justify;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.haber a{
+	text-decoration: none;
+}
+
+
+
+/* HABER END */
+
+/* Footer Start */
+.footer {
+	width: 950px;
+	height: 413px;
+	background-color: #708090;
+	color: white;
+	font-weight: bold;
+	clear:both;
+	margin: 5px;
+	text-align: center;
+	line-height: 410px;
+	border-radius: 8px;
+}
+
+/* Footer End */
+
+/* MENU START*/ 
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+	color: #151515;
+	list-style-type: none;
+	/* display: flex; -> float left ekledik ul li'ye*/
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	display: block;
+	width: 188.8px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: Verdana;
+	color:coral;
+	font-size: 16px;
+	border-left: solid 1px chocolate;
+}
+
+.menu ul li a:hover {
+	font-weight: bold;
+	transition: all .1s ease-in-out;
+	color: chocolate;
+	/* border-left: solid 1px coral; */
+
+}
+
+/* .menu ul li a.active{
+	background: rgba(240, 112, 61, 0.467);
+	color: #fff;
+	border-radius: 6px;
+  } */
+
+/* MENU END*/ 
